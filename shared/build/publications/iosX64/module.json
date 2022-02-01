@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../shared/1.0/shared-1.0.module",
+    "group": "com.example.calculate",
+    "module": "shared",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared.klib",
+          "url": "shared-iosx64-1.0.klib",
+          "size": 6353,
+          "sha512": "bdf34b93edd919c01b1254a9f81921051a7b63411ada6caf8440597bf9e2c4ea2d32d21ae4be6287193c54dd731e79aa84b7d8c26706af61dd9b318a4e8459a9",
+          "sha256": "3f25cd1d5527c84b8ae5a1f474e6af286e14cea790ae0942ba8b4c0223ebef48",
+          "sha1": "5ce28d1d751ec25b1f97d2ed2dba381dc6b1a141",
+          "md5": "beb7dbed2cf4fb7ae17760b7b635acfc"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-iosx64-1.0-metadata.jar",
+          "url": "shared-iosx64-1.0-metadata.jar",
+          "size": 4646,
+          "sha512": "75ef018c998c3d0a921442d435c1f2f6403cb613c7ad0e11e4962996fae83c60070472ca880fdec2a85e01392fc3e15e4ec1c1d69351a0b6ccc0cd63f1cef019",
+          "sha256": "0d4d7844f408f32a91059ac17e4e50c7a4e4204875cc590220e462d24e19b17d",
+          "sha1": "4b881007dd92155a741c76809fcac9883955ac94",
+          "md5": "076905eaa367a6bc98cfc35fd21ff4e1"
+        }
+      ]
+    }
+  ]
+}

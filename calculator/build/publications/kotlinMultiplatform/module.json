@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.calculate",
+    "module": "calculator",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calculator-metadata-1.0-all.jar",
+          "url": "calculator-1.0-all.jar",
+          "size": 3350,
+          "sha512": "f6a2843816a256119ad0076d95066bd97618c12d22f415359a4ed246f55358e11b3542b4b31a10a02bf0a946bf2524f70d62b8fdda9a95d8ede5dcb9c1960e00",
+          "sha256": "1b64769e8f51ed1b6e1217c064b00109efb632134dd411e0fc214b40d18a61dd",
+          "sha1": "b830e36348e122dd5d46a774ec423c0a263b60c6",
+          "md5": "a9a3b9588b5967c62617ea6b6f4674cb"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calculator-1.0.jar",
+          "url": "calculator-1.0.jar",
+          "size": 1352,
+          "sha512": "394eb1cf18a282625e98d36be1e6340b285eb7e5cee082fb7c7928e54b6081fb3cfc8ddd01476be6c0f1ef9cf88518c26fc0e0c727a05b943d66e216a9c86d27",
+          "sha256": "f0832d9db9ac99a421a7490ff17c6b96e72e629f2db1ad5a2a9ea7a1142d2c1f",
+          "sha1": "180e3ee89d4f1b72162f9e730b762928324b0012",
+          "md5": "2076938a756b59f04bff1fd2d9f1534d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calculator-iosarm64/1.0/calculator-iosarm64-1.0.module",
+        "group": "com.example.calculate",
+        "module": "calculator-iosarm64",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calculator-iosarm64/1.0/calculator-iosarm64-1.0.module",
+        "group": "com.example.calculate",
+        "module": "calculator-iosarm64",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calculator-iosx64/1.0/calculator-iosx64-1.0.module",
+        "group": "com.example.calculate",
+        "module": "calculator-iosx64",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calculator-iosx64/1.0/calculator-iosx64-1.0.module",
+        "group": "com.example.calculate",
+        "module": "calculator-iosx64",
+        "version": "1.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../shared/1.0/shared-1.0.module",
+    "group": "com.example.calculate",
+    "module": "shared",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared.klib",
+          "url": "shared-iosarm64-1.0.klib",
+          "size": 6370,
+          "sha512": "6bd6f21a275e9716408556eca02704e16594f3dfba6e64f57d246545e5f939d608c1fa3e64a57748f892724f7f9c15701ef076bbbd54810fa971e4fc53cd3c4c",
+          "sha256": "f60db9a000ecf4d3287f88299d8295b4067fff4db8c9213a9dc0c2c34d9e2dbf",
+          "sha1": "e9232db4410dbd4dabcc4586eceaf25b3916dffd",
+          "md5": "5f3b6d83cbb593524ef4b4895e8c7560"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-iosarm64-1.0-metadata.jar",
+          "url": "shared-iosarm64-1.0-metadata.jar",
+          "size": 4646,
+          "sha512": "221805965d3f7c2975680a38bafdb8e3d23d9714252c92995e5c57c15cd5d0d82169ed45236d8c457ee6feefaeef93f9a57a094cae38576a403492051978a2d4",
+          "sha256": "037a9b99c86f8bd9d25a0a5fea678fe99d31ec8c567ded5ddfb301a5dffc4d29",
+          "sha1": "c2ecf3518d4388d2998b5071ca18f8b2cd14923b",
+          "md5": "9ac377c4453eaf2e1aa7b447d22a069d"
+        }
+      ]
+    }
+  ]
+}

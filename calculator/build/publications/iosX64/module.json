@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calculator/1.0/calculator-1.0.module",
+    "group": "com.example.calculate",
+    "module": "calculator",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calculator.klib",
+          "url": "calculator-iosx64-1.0.klib",
+          "size": 6303,
+          "sha512": "ad3f39cef99315d47dcc9821830bdf993f1a18bd9cf08385cd10f509150e3092ca2138af74226620241a5f0167983c13756348f32431e2bc3172ee60f4f2c77d",
+          "sha256": "4433f68fa98f2830c594d762dbd1a0c540e7df46b982c9d19077bfbee9ed7376",
+          "sha1": "1568720fe37e9fafdef08d261d0924eb4785d6cb",
+          "md5": "5cf9249b9aefa50eef87cfec0e4ec295"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calculator-iosx64-1.0-metadata.jar",
+          "url": "calculator-iosx64-1.0-metadata.jar",
+          "size": 4595,
+          "sha512": "50e4953d5e83dfd00528f91dbe2d588a3685b26ffded3c604f9357b64daefa0423518358afc23b67c68cc2201bdd69b9f74f92bdaafa9f3486081172897d5a0d",
+          "sha256": "99ee9ea0ac0bbfecd76ae249720443a2c9a5a50593f291117229dc97230b5038",
+          "sha1": "05baa00971981067c6789ef0ab36b01621f34466",
+          "md5": "27d597c681b664f3525b3d7c927d5467"
+        }
+      ]
+    }
+  ]
+}
